@@ -661,15 +661,6 @@ exports.seed = function(knex, Promise) {
           Parent_ID: "1"
         },
         {
-          id: 74,
-          WOE_ID: "23424977",
-          ISO: "US",
-          Name: "United States",
-          Language: "ENG",
-          PlaceType: "Country",
-          Parent_ID: "1"
-        },
-        {
           id: 75,
           WOE_ID: "23424975",
           ISO: "GB",
