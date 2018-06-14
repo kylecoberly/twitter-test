@@ -137,7 +137,9 @@ app.get("/worldcitieswoeid/:id", (request, response) => {
   queries
     .read(request.params.id, "worldcitieswoeid")
     .then(worldcitieswoeid => {
-      worldcitieswoeid ? response.json({ worldcitieswoeid }) : response.sendStatus(404);
+      worldcitieswoeid
+        ? response.json({ worldcitieswoeid })
+        : response.sendStatus(404);
     })
     .catch(console.error);
 });
